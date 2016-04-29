@@ -1,6 +1,6 @@
 {
   "name": "has-chrome-storage",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Detect if the running environment has the chrome.storage API",
   "main": "index.js",
   "scripts": {
