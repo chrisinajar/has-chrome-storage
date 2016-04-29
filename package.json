@@ -1,0 +1,35 @@
+{
+  "name": "has-chrome-storage",
+  "version": "0.0.0",
+  "description": "Detect if the running environment has the chrome.storage API",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/has-chrome-storage.git"
+  },
+  "keywords": [
+    "feature",
+    "detection",
+    "storage",
+    "chrome"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/has-chrome-storage/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/has-chrome-storage#readme",
+  "devDependencies": {
+    "poison-get": "^1.0.0",
+    "proxyquire": "^1.7.4",
+    "semistandard": "^7.0.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "global": "^4.3.0"
+  }
+}
